@@ -1,0 +1,13 @@
+example-hack:
+    name: "Speed"
+    duration: 10
+    kick-message: "&cYou have been banned for speeding!"
+    join-message: "&cYou cannot join this server becuase you have been banned for speeding!"
+    formatted-time: "10 Seconds"
+    
+another-example-hack:
+    name: "Flying"
+    duration: 10
+    kick-message: "&cYou have been banned for flying!"
+    join-message: "&cYou cannot join this server becuase you have been banned for flying!"
+    formatted-time: "10 Seconds"

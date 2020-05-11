@@ -1,0 +1,22 @@
+server1:
+    ann1:
+        message: "&6[Server #1]: Join the Discord!: example.com"
+        offset: 5
+        delay: 10
+        
+    ann2:
+        message: "&6[Server #1]: Subscribe on Youtube!: example.com"
+        offset: 10
+        delay: 10
+    
+server2:
+    ann1:
+        message: "&6[Server #2]: Join the Discord!: example.com"
+        offset: 15
+        delay: 10
+        
+    ann2:
+        message: "&6[Server #2]: Subscribe on Youtube!: example.com"
+        offset: 20
+        delay: 10
+

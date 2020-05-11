@@ -1,0 +1,30 @@
+Permissions:
+    - mainframe.* -> For all permissions
+    - mainframe.sc -> Enables seeing staff chat and all related messages
+    - mainframe.btp -> Enables use of the '/bungeeteleport' command
+    - mainframe.gexe -> Enables use of the '/globalexecute' command
+    - mainframe.plookup -> Enables use of the '/playerlookup' command
+    - mainframe.report -> Enables use of the '/report' command
+    - mainframe.seereport -> Enables viewing all reports sent by players
+    - mainframe.ban -> Enables use of the '/ban' command
+    - mainframe.unban -> Enables use of the '/unban' command
+    - mainframe.mute -> Enables use of the '/mute' command
+    - mainframe.unmute -> Enables use of the '/unmute' command
+    - mainframe.kick -> Enables use of the '/kick'
+    - mainframe.bypassban -> Allows the player not to be banned
+    - mainframe.bypassmute -> Allows the player not to be muted
+    - mainframe.bypasskick -> Allows the player not to be kicked
+    - mainframe.bypasschat -> Allows the player to type anything in chat regardless of it being blacklisted
+    - mainframe.bypassalert -> (BUKKIT PERMISSION) Prevents hack alerts being sent about a certain player
+    
+Command Aliases:
+    - Ban: N/A
+    - BungeeTeleport: 'btp', 'bungeetp', 'bteleport', 'bungeecordtp', 'bungeecordteleport'
+    - GlobalExecute: 'gexe', 'gcommand', 'sall'
+    - Kick: N/A
+    - Mute: N/A
+    - PlayerLookup: 'plookup', 'pinfo', 'playerinfo'
+    - Report: 'helpop'
+    - StaffChat: 'sc', 'staffc', 'schat'
+    - Unban: 'pardonban'
+    - Unmute: 'pardonmute'

@@ -1,0 +1,7 @@
+name: Mainframe
+version: 1.5.6_MC-1.12.2
+description: General Features for BungeeCord
+author: SherRao
+
+main: tk.sherrao.bungee.mainframe.BungeeMainframe
+prefix: Mainframe

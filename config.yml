@@ -1,0 +1,104 @@
+###############################
+#                             #
+#   Mainframe - Config File   #
+#                             #
+#    Developed by SherRao     #
+#                             #  
+###############################
+#
+#
+# <--- Anything with this before it means it is a comment, it can be changed to your liking
+# You can even add your own comments!
+#
+#
+# [String/Color Codes]
+# Color codes (the '&' symbol) can be used for formatting in strings
+# You can find a list of all color codes here: http://wiki.ess3.net/mc/
+#
+
+# The format to use in chat for staff chat messages
+#  [String/Color Codes]
+staff-chat-format: "&c[Staff Chat] &d[[server]] [sender] &7>> &e[message]"
+
+# The format to use for logging commands
+#  [String/Color Codes]
+logging-format: "[[time]] [[server]] [player]: [message]"    
+
+# The format to use in chat for player reports
+#  [String/Color Codes]
+report-format: "&c[Reports] &d[[server]] [sender] &7>> &e[message]"
+
+# The format to use in staff chat for bans
+#  [String/Color Codes]
+ban-format: "&c[Bans] &d[[server]] &7>> &c[executor] &6has banned &6[target] &cfor &6[reason] for ([formatted-time] x [duration-multiplier])!"
+
+# The format to use in staff chat for unbans
+#  [String/Color Codes]
+unban-format: "&c[Bans] &d[[server]] &7>> &c[pardoner] &6has pardoned &6[target]'s &cban!"
+
+# The format to use in staff chat for kicks
+#  [String/Color Codes]
+kick-format: "&c[Kicks] &d[[server]] &7>> &c[executor] &6has kicked &6[target] &cfor &6[reason]!"
+
+# The format to use in staff chat for mutes
+#  [String/Color Codes]
+mute-format: "&c[Mutes] &d[[server]] &7>> &c[executor] &6has muted &6[target] &cfor &6[duration] seconds!"
+
+# The format to use in staff chat for unbans
+#  [String/Color Codes]
+unmute-format: "&c[Mutes] &d[[server]] &7>> &c[pardoner] &6has pardoned &6[target]'s &cmute!"
+
+# The format to use in staff chat for swears
+#  [String/Color Codes]
+swear-format: "&c[Chat] &d[[server]] &7>> &6[swearer] &cused a blacklisted word!: &6[swear]!"
+
+# The time (in seconds) before a player can send another player report
+report-timeout: 5
+
+# The list of words to block in chat
+chat-blacklist: 
+    - "fuck"
+    - "ass"
+    - "shit"
+    
+player-lookup:
+
+    no-bans: "&aNo Data :D"
+    no-kicks: "&aNo Data :D"
+    no-mutes: "&aNo Data :D"
+
+    ban-format:
+        - "    &c[time]"
+        - "    &7> &cIssuer: &6[issuer]"
+        - "    &7> &cReason: &6[reason]"
+        - "    &7> &cServer: &6[server]"
+        - "    &7> &cDuration: &6[duration] seconds"
+        - "    &7> &cStill Active?: &6[active]"
+        - " "
+        
+    kick-format: 
+        - "    &c[time]"
+        - "    &7> &cIssuer: &6[issuer]"
+        - "    &7> &cReason: &6[reason]"
+        - "    &7> &cServer: &6[server]"
+        - " "
+        
+    mute-format:
+        - "    &c[time]"
+        - "    &7> &cIssuer: &6[issuer]"
+        - "    &7> &cReason: &6[reason]"
+        - "    &7> &cServer: &6[server]"
+        - "    &7> &cDuration: &6[duration] seconds"
+        - "    &7> &cStill Active?: &6[active]"
+        - " "
+        
+    format:
+        - "&0&l##################################"
+        - "&bShowing refraction history for [player]"
+        - ""
+        - "  &6Bans: [bans]"
+        - "  &6Kicks: [kicks]"
+        - "  &6Mutes: [mutes]"
+        - ""
+        - "&0&l##################################" 
+   

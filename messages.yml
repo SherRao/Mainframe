@@ -1,0 +1,73 @@
+#################################
+#                               #
+#    Mainframe - Messages File  #
+#                               #
+#     Developed by SherRao      #
+#                               #  
+#################################
+#
+# See the 'String/Color Codes' section in the 'config.yml' file
+
+# When a player doesn't have permission to perform an action
+no-perms: "&cSorry! But you don't have permission to do that!"
+
+# When someone tries to execute a command improperly
+# '[usage]' will be replaced with the usage of the command
+wrong-command-usage: "&cWrong! Use the command like this: &6&o[usage]"
+
+# When someone uses a command that requires a player as an argument, and that player doesn't exist
+invalid-target-player: "&cThat isn't a valid player!"
+
+# When someone uses a command that requires a server as an argument, and that server doesn't exist
+invalid-target-server: "&cThat isn't a valid server!"
+
+# When someone doesn't specify a hack where required
+# '[hacks]' will be replaced with a list of hacks 
+available-hacks: "&cYou have not specified a hack! These are the currently available hacks!: \n\t&6[hacks]"
+
+# When someone uses a command that requires a config-specified hack as an argument, and that hack doesn't exist
+invalid-target-hack: "&cThat isn't a valid hack!"
+
+# When someones uses a command that requires time (in seconds), and the specified time is invalid
+invalid-target-duration: "&cThat isn't a valid amount of seconds!"
+
+# When someone tries to ban a player that is already banned
+player-already-banned: "&cThat player is already banned!"
+
+# When someone tries to unban a player that is already unbanned
+player-already-unbanned: "&cThat player is already unbanned!"
+
+# When someone tries to mute a player that is already muted
+player-already-muted: "&cThat player is already muted!"
+
+# When someone tries to unmute a player that is already unmuted
+player-already-unmuted: "&cThat player is already unmuted!"
+
+# The message to send to someone while they are muted and try to talk in chat
+muted: "&cYou are muted!"
+
+# The message to send to a player when they still have to wait to use a command
+timeout: "&cYou have to wait [time] seconds in between that command!"
+
+# The message to send to someone when they send a swear word in chat
+chat-message-blacklisted: "&cYou aren't allowed to say that!"
+
+# Message sent when a command has been executed successfully
+command-success:
+
+    # /bungeeteleport <player> <server>
+    # '[player]' will be replaced with the target player
+    # '[server]' will be replaced with the target server
+    btp: "&aYou have successfully teleported &6[player] &ato &6[server]!"
+    
+    # When someone looks up information on a player
+    # '[player]' will be replaced with the target player
+    player-info: "&aLoading player data for &6&o[player]&a! This might take a few seconds..."
+    
+    # When someone sends a player report
+    report: "&aYou have successfully sent a player report!"
+
+    # When someone executes a global command
+    global-execute: "&aYour command has successfully been executed on every online server in the proxy!"
+
+
